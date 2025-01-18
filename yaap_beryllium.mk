@@ -6,11 +6,19 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common YAAP stuff.
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+
+YAAP_BUILDTYPE := UNOFFICIAL
+TARGET_BUILD_GAPPS := true
+TARGET_SUPPORTS_64_BIT_APPS := true
+TARGET_ENABLE_BLUR := false
+
+# Boot Animation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_beryllium
+PRODUCT_NAME := yaap_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2025 RvOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/RvOS-AOSP/vendor_rvos_ota/fifteen/beryllium.json</string>
+    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/RvOS-AOSP/rvos_changelog/fifteen/devices/beryllium.md</string>
+</resources>

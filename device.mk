@@ -22,8 +22,6 @@ $(call inherit-product-if-exists, vendor/miuicamera/config.mk)
 PRODUCT_PACKAGES += \
     FM2
 
-$(call soong_config_set,libfmjni,vendor,qcom)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \

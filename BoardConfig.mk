@@ -19,7 +19,7 @@ AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/beryllium.config
+TARGET_KERNEL_CONFIG := vendor/xiaomi/beryllium_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
